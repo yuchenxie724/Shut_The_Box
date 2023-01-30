@@ -1,0 +1,86 @@
+body {
+	background-color: #ffedf9;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main {
+	color: #832f96;
+	border: 2px dotted #832f96;
+	padding: 20px;
+	margin: 15px 20px;
+}
+
+header{
+	text-align: center;
+}
+
+fieldset { 
+	position: static;
+	text-align: center;
+	border: 2px dotted #832f96;
+	padding: 20px;
+	margin: 25px;
+}
+
+p {
+	padding-left: 20px;
+}
+
+input[type=button], input[type=submit] {
+	background-color: #fdf5ff;
+	color: #832f96;
+	border: 1px dotted lightgrey;
+	margin: 4px 2px;
+	font-size: 16px;
+	display: inline;
+}
+
+
+footer {
+	text-align: center;
+	font-size: 0.8em;
+	background-color: #ffedf9;
+	position: sticky;
+	bottom: 0;
+}
+
+/*login*/
+
+.login_page{
+	position: static;
+	text-align: center;
+	border: 2px dotted #832f96;
+	padding: 20px;
+	margin: 25px;
+}
+
+
+/* shut_the_box */
+ol li {
+	margin: 15px;
+}
+
+
+#result_not_move{
+	text-align: center;
+	display:  inline-block;
+	width: 5em;
+}
+
+
+table { 
+	width: 95%;
+	text-align: center;
+	border: 3px double #832f96;
+	border-spacing: 7px;
+	table-layout:fixed;
+	padding: 20px;
+	margin:  25px;
+}
+
+thead td {
+	width: 7%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border: 1.5px dashed #832f96;
+}
